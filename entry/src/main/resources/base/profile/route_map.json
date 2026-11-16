@@ -1,0 +1,116 @@
+{
+  "routerMap": [
+    {
+      "name": "LifecycleLog",
+      "pageSourceFile": "src/main/ets/views/LogPage.ets",
+      "buildFunction": "LogPageBuilder",
+      "data": {
+        "description": "Full ordered lifecycle log"
+      }
+    },
+    {
+      "name": "Compare",
+      "pageSourceFile": "src/main/ets/views/ComparePage.ets",
+      "buildFunction": "ComparePageBuilder",
+      "data": {
+        "description": "Approach comparison"
+      }
+    },
+    {
+      "name": "DashboardBroken",
+      "pageSourceFile": "src/main/ets/approaches/broken/DashboardBroken.ets",
+      "buildFunction": "DashboardBrokenBuilder",
+      "data": {
+        "description": "Approach 1: write in aboutToDisappear (bug) - Dashboard"
+      }
+    },
+    {
+      "name": "EditGoalBroken",
+      "pageSourceFile": "src/main/ets/approaches/broken/EditGoalBroken.ets",
+      "buildFunction": "EditGoalBrokenBuilder",
+      "data": {
+        "description": "Approach 1: write in aboutToDisappear (bug) - EditGoal"
+      }
+    },
+    {
+      "name": "ConfirmBroken",
+      "pageSourceFile": "src/main/ets/approaches/broken/ConfirmBroken.ets",
+      "buildFunction": "ConfirmBrokenBuilder",
+      "data": {
+        "description": "Approach 1: write in aboutToDisappear (bug) - Confirm"
+      }
+    },
+    {
+      "name": "DashboardAS",
+      "pageSourceFile": "src/main/ets/approaches/appstorage/DashboardAS.ets",
+      "buildFunction": "DashboardASBuilder",
+      "data": {
+        "description": "Approach 2: AppStorage - Dashboard"
+      }
+    },
+    {
+      "name": "EditGoalAS",
+      "pageSourceFile": "src/main/ets/approaches/appstorage/EditGoalAS.ets",
+      "buildFunction": "EditGoalASBuilder",
+      "data": {
+        "description": "Approach 2: AppStorage - EditGoal"
+      }
+    },
+    {
+      "name": "ConfirmAS",
+      "pageSourceFile": "src/main/ets/approaches/appstorage/ConfirmAS.ets",
+      "buildFunction": "ConfirmASBuilder",
+      "data": {
+        "description": "Approach 2: AppStorage - Confirm"
+      }
+    },
+    {
+      "name": "DashboardPR",
+      "pageSourceFile": "src/main/ets/approaches/popresult/DashboardPR.ets",
+      "buildFunction": "DashboardPRBuilder",
+      "data": {
+        "description": "Approach 3: pop(result) / onPop - Dashboard"
+      }
+    },
+    {
+      "name": "EditGoalPR",
+      "pageSourceFile": "src/main/ets/approaches/popresult/EditGoalPR.ets",
+      "buildFunction": "EditGoalPRBuilder",
+      "data": {
+        "description": "Approach 3: pop(result) / onPop - EditGoal"
+      }
+    },
+    {
+      "name": "ConfirmPR",
+      "pageSourceFile": "src/main/ets/approaches/popresult/ConfirmPR.ets",
+      "buildFunction": "ConfirmPRBuilder",
+      "data": {
+        "description": "Approach 3: pop(result) / onPop - Confirm"
+      }
+    },
+    {
+      "name": "DashboardRM",
+      "pageSourceFile": "src/main/ets/approaches/routemgr/DashboardRM.ets",
+      "buildFunction": "DashboardRMBuilder",
+      "data": {
+        "description": "Approach 4: route-management singleton - Dashboard"
+      }
+    },
+    {
+      "name": "EditGoalRM",
+      "pageSourceFile": "src/main/ets/approaches/routemgr/EditGoalRM.ets",
+      "buildFunction": "EditGoalRMBuilder",
+      "data": {
+        "description": "Approach 4: route-management singleton - EditGoal"
+      }
+    },
+    {
+      "name": "ConfirmRM",
+      "pageSourceFile": "src/main/ets/approaches/routemgr/ConfirmRM.ets",
+      "buildFunction": "ConfirmRMBuilder",
+      "data": {
+        "description": "Approach 4: route-management singleton - Confirm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "NavSync: data timing during Navigation transitions"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "NavSync wearable sample"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "NavSync"
+    }
+  ]
+}
