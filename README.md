@@ -2,7 +2,7 @@
 
 # How to Manage Global Data During Navigation
 
-A sample for HarmonyOS Next smart wearables that shows when to update shared data during `Navigation` transitions. When the user goes back from page B to page A, A is shown before B is torn down, so a value that B saves in `aboutToDisappear` reaches A too late and A shows the old value. The app builds the same "edit daily step goal" flow (Dashboard → Edit Goal → Review → Confirm) four ways: one broken on purpose and three correct ones. It logs every lifecycle callback on the watch in the order it really fires, so you can see the timing for yourself. The rule the codelab teaches: **commit data before you call `pop()`, `popToName()` or `replacePath()`. Never publish results from a closing page's `aboutToDisappear` or `onDisAppear`.**
+A sample for HarmonyOS smart wearables that shows when to update shared data during `Navigation` transitions. When the user goes back from page B to page A, A is shown before B is torn down, so a value that B saves in `aboutToDisappear` reaches A too late and A shows the old value. The app builds the same "edit daily step goal" flow (Dashboard → Edit Goal → Review → Confirm) four ways: one broken on purpose and three correct ones. It logs every lifecycle callback on the watch in the order it really fires, so you can see the timing for yourself. The rule the codelab teaches: **commit data before you call `pop()`, `popToName()` or `replacePath()`. Never publish results from a closing page's `aboutToDisappear` or `onDisAppear`.**
 
 # Preview
 
